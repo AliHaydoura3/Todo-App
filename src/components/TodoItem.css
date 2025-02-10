@@ -1,0 +1,14 @@
+.checkbox:hover {
+  cursor: pointer;
+  background: linear-gradient(var(--todo-background), var(--todo-background))
+      padding-box,
+    var(--primary-check-background) border-box !important;
+}
+
+.checkbox.active {
+  background: var(--primary-check-background) !important;
+}
+
+.cross:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.footer span:not(.active):hover {
+  cursor: pointer;
+  color: var(--footer-hover);
+}
+
+.footer .active {
+  color: var(--primary-bright-blue);
+}

@@ -1,0 +1,4 @@
+.hover-color:hover {
+  color: var(--footer-hover);
+  cursor: pointer;
+}
